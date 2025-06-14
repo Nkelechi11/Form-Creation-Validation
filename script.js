@@ -46,29 +46,7 @@ const feedbackDiv = document.getElementById("form-feedback")
     feedbackDiv.innerHTML = messages.join("<br>"); // show all messages
     feedbackDiv.style.color = "#dc3545"; // red
   }
-});
+}
+);
 
-
-
-
-
-// const usernameInp = document.getElementById("username")
-// const usernameError = document.getElementById("usernameError")
-//  if (usernameInp.value.length.trim()< 3) {
-//         usernameError.textContent = 'Username must be at least 3 characters long.';
-//         return;
-//       } else {
-//         usernameError.textContent = '';
-//       }
-
-
-// const email = document.getElementById("email")
-
-
-
-// const password = document.getElementById("password")
-
-
-
-
-//  } )
+ } )
